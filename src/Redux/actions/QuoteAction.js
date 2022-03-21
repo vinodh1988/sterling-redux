@@ -7,6 +7,13 @@ export const QuoteAction =(data)=>{
     }
 }
 
+export const QuoteAsyncAction =(data)=>{
+    return {
+        type: "QUOTE_ASYNC_ACTION",
+        data: data
+    }
+}
+
 
 export const QuoteActionAPI = ()=>{
     return async (dispatch)=>{
