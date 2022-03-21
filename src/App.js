@@ -1,5 +1,7 @@
-import MessageBox from "./MessageBox"
+
 import './App.css'
+import { MessageBoxHOC } from './Redux/hocs/MessageHOC'
+
 const App = function(){
       return(
       <div>
@@ -7,7 +9,7 @@ const App = function(){
                <h1> Redux App</h1>
             
          </div>
-         <MessageBox></MessageBox>
+         <MessageBoxHOC></MessageBoxHOC>
         </div>
       )
 }
