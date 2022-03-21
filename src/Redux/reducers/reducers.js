@@ -11,10 +11,12 @@ export const firstReducer=(state={message: "Hello Redux!!!!"},action)=>{
 export const QuoteReducer = (state ={quote: {
     message: " no message yet",
     author: " No Author "
-}},action)=>{
+},quotes: []},action)=>{
     switch(action.type){
         case "QUOTE_ACTION":
-                return {quote: action.data}
+                return {...state,quote: action.data}
+        case "QUOTES_ALL_ACTION":
+                return {...state,quotes:action.data}
         default:
                 return state
   }

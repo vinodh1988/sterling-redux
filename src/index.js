@@ -16,6 +16,7 @@ import { rootSaga } from './Redux/Saga/root';
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(appstate,applyMiddleware(sagaMiddleware))
 sagaMiddleware.run(rootSaga);
+store.dispatch({type:"READ_QUOTES"})
 
 ReactDOM.render(
   <Provider store={store}>

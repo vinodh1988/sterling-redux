@@ -5,3 +5,7 @@
 .bg-yellow{
   background-color: rgb(253, 253, 159);
 }
+
+.btn{
+  margin-left: 20px !important;
+}

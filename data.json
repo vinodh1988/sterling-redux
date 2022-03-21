@@ -1,0 +1,34 @@
+{
+  "Quotes": [
+    {
+      "quote": "The awareness of our own strength makes us modest.",
+      "author": "Paul Cézanne",
+      "id": 1
+    },
+    {
+      "quote": "A man is great by deeds, not by birth.",
+      "author": "Chanakya",
+      "id": 2
+    },
+    {
+      "quote": "There is only one happiness in life, to love and be loved.",
+      "author": "George Sand",
+      "id": 3
+    },
+    {
+      "quote": "The best preparation for tomorrow is doing your best today.",
+      "author": "H. Jackson Brown Jr.",
+      "id": 4
+    },
+    {
+      "quote": "Don't ruin the present with the ruined past.",
+      "author": "Ellen Gilchrist",
+      "id": 5
+    },
+    {
+      "quote": "The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle.",
+      "author": "Anaïs Nin",
+      "id": 6
+    }
+  ]
+}
