@@ -8,10 +8,13 @@ export const firstReducer=(state={message: "Hello Redux!!!!"},action)=>{
    }
 }
 
-export const secondReducer = (state ={second: "Second Hello"},action)=>{
+export const QuoteReducer = (state ={quote: {
+    message: " no message yet",
+    author: " No Author "
+}},action)=>{
     switch(action.type){
-        case "SECOND_ACTION":
-                return {second: action.data}
+        case "QUOTE_ACTION":
+                return {quote: action.data}
         default:
                 return state
   }

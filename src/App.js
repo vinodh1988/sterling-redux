@@ -1,6 +1,7 @@
 
 import './App.css'
-import { MessageBoxHOC } from './Redux/hocs/MessageHOC'
+import { MessageBoxHOC} from './Redux/hocs/MessageHOC'
+import { QuoteHOC } from './Redux/hocs/QuoteHoc'
 
 const App = function(){
       return(
@@ -10,6 +11,7 @@ const App = function(){
             
          </div>
          <MessageBoxHOC></MessageBoxHOC>
+         <QuoteHOC></QuoteHOC>
         </div>
       )
 }
